@@ -5,7 +5,7 @@ import {
     createForecastHtml
 } from './display/weather-view'
 
-import {getCombinedWeather} from './weather-model'
+import {getCombinedWeather} from './api/weather-api'
 
 const searchCity = () => {
 
